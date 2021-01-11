@@ -1,4 +1,5 @@
 
+
 /* Topnav BG Color */
 .topnav {
   background-color: #002c5f;
@@ -100,6 +101,14 @@ table  {
     margin-right: 15px;
     line-height: 2;
     font-size: 1vw;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
 }
 
 
@@ -376,4 +385,86 @@ th, td {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0.5vw;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  #first {
+    width: 100%;
+  }
+}
+
+#wrapper {
+  width:100%;
+  clear:both;
+}
+#first {
+  width:30%;
+  float:left;
+}
+#second {
+  width:30%;
+  float:left;
+}
+#third {
+  width:40%;
+  float:right;
+}
+
+#wrapper {
+  width:100%;
+  clear:both;
+}
+#one {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:44vw;
+}
+#two {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:22vw;
+
+}
+#three {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:22vw
+}
+
+
+#firstt {
+  width:33.3%;
+  float:left;
+  background-color: #E0FFFF;
+  text-align: center;
+}
+#secondd {
+  width:33.3%;
+  float:left;
+  background-color: #E0FFFF;
+  text-align: center;
+
+}
+
+#thirdd {
+  width:33.3%;
+  float:left;
+  background-color: #E0FFFF;
+  text-align: center;
+
 }
