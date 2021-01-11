@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Y10 Topic 4: Binomial Theorem</title>
+<head>
+  <link rel= "stylesheet" href="webstyles.css">
+  <script src="web.js"></script>
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <img src="Math in New Era Logo 2.png" class="image24">
+    <h1 class="header">Math in New Era - A Modern Guide to MYP Mathematics for Grades 9 - 10</h1>
+    <a href="homepage.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Y9EXT.html">Grade 9</a>
+    <a href="Index.html"   class="active">Grade 10</a>
+    <a href="Videos.html">Videos</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <h2>Chapter 4: Binomial Theorem</h2>
+
+  <h3>Section 4.1: What is the Binomial Theorem?</h3>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva1.png" class="image3">
+  <p  style="padding:1vw; width:50vw;">A binomial is a mathematical expression that contains two different expressions, usually letters like x and y, or a and b. The Binomial Theorem usually involves two expressions (in some cases, could be more) and discusses their expansion when they are squared, cubed, or raised to a certain power. A commonly encountered form is the expansion (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>. However, imagine if you had to evaluate (a + b)<sup>10</sup> manually, it would take way too long. Usually, the binomial theorem works on adding or subtracting the expressions, because we learned in Chapter 1 that multiplication and division of numbers raised to same power can directly be combined. Its general formula is (a + b)<sup>n</sup> = (<sup>n</sup><sub>0</sub>)a<sup>n</sup> + (<sup>n</sup><sub>1</sub>)a<sup>n - 1</sup>b + (<sup>n</sup><sub>2</sub>)a<sup>n - 2</sup>b<sup>2</sup> + ... + (<sup>n</sup><sub>n</sub>)b<sup>n</sup>, where (<sup>n</sup><sub>0</sub>)a<sup>n</sup> is usually called the first term. These symbols and notations will be discussed further along this chapter.<br>
+  Note:<br>
+  1. The number of terms through the whole expansion is n + 1 (the exponent + 1).<br>
+  2. For every term in the expansion, the sum of their powers are n.<br>
+  3. As the expansion progresses, you'll notice that the exponent of the first expression will decrease, while the second one increases.<br></p>
+
+  <h3>Section 4.2: The Pascal Triangle</h3>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva2.png" class="image3">
+  <p  style="padding:1vw; width:50vw;">The Pascal Triangle is helpful when determining the coefficients of a binomial expansion when the powers are small. This triangle consists of an array of numbers that are arranged systematically. You can see that the numbers in the middle are the sums of the two numbers that lay above it. The first level of the triangle indicates when n = 0, or the numbers are raised to 0. The answer is always 1, because any number raised to the power of 0 is 1, therefore 1 is written at the very top. The next level indicates when the numbers are raised to the power of 1, which would be equal to themselves. For instance, (a + b)<sup>1</sup> would still be a + b, a has the coefficient of 1, and so does b. It can continue on and on by adding the two numbers above where that number is supposed to be placed. However, this wouldn't work efficiently is the powers are huge. To be able to solve these questions quickly, you have to avoid using the Pascal Triangle for powers that are too big.</p><br><br>
+
+  <h3>Section 4.3: Binomials with High Powers</h3>
+  <p>Imagine you'd have to evaluate (a + b)<sup>20</sup>. You can't memorize the coefficients like remembering (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>, you can't use the Pascal Triangle, let alone count it manually. The answer to this would require you to understand a little portion of the combinatorics concept.</p>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva3.png" class="image3">
+  <p  style="background-color: #87CEFA; padding:1vw; width:50vw;  text-align:center;"><b>a. Using Combinatorics to find Coefficients</b></p>
+  <p  style="padding:1vw; width:50vw;">Combinatorics is a way to determine how many ways can a number of objects be arranged, but in this case, it can be applied to help us find the coefficients of a binomial expansion. When you see an exclamation mark (!) beside a number, it means to say 'factorial', or multiply that number with all the numbers before it, until you reach 1. For example you see 5! ('5 factorial'), you can expand it into 5 x 4 x 3 x 2 x 1 = 120. But hold on, because that's not your coefficient just yet. Now you were wondering about the symbol (<sup>n</sup><sub>2</sub>), this is your coefficient, but how do we solve this? That symbol is called a matrix, and solving it involves using the concept of factorials we discussed earlier. To solve that, we have the combination formula. The method can be seen on the image on the right.<br>
+  Now we have the coefficient, but which term does this belong to?</p>
+
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva4.png" class="image3">
+  <p  style="background-color: #87CEFA; padding:1vw; width:50vw; text-align:center; "><b>b. Finding the nth Term</b></p>
+  <p  style="padding:1vw; width:50vw;">Here, another formula will be introduced. Let's say T stands for 'term', and T<sub>1</sub> would mean the first term, 1 indicating its order in the expansion. Now this new formula is:<br>
+  T<sub>r + 1</sub> = (<sup>n</sup><sub>r</sub>)a<sup>n - r</sup>b<sup>r</sup><br>
+  Now the letter 'r' seems familiar right? It's that number in the matrix that sits below 20 just now. So we have r = 2, substituting that to the formula we have T<sub>r + 1</sub> = T<sub>3</sub>, which means that it's the third term of the expansion.<br>
+  However, this is a backwards step. Questions would generally ask you to find the coefficient of a term instead of using it find which term it belongs to.</p><br><br>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva5.png" class="image3">
+  <p  style="padding:1vw; width:50vw;"> To find out how this works, let's take an example of (a + b)<sup>15</sup> and find the 4th term. The working is provided on the image on the right.<br></p>
+  <p  style="padding:1vw; width:50vw;">We then have the coeffiecient = 455, and the fourth term 455a<sup>12</sup>b<sup>3</sup><br>
+  Note: If the question ask you for the 'term' include the expressions (a and b), but if they only ask for the 'coefficient', then only include the numbers.<br>
+  On other occassions, they provide you the expression, for example you are asked to find the coefficient of a<sup>6</sup>b<sup>9</sup>. My suggestion for this would be to create a small table that consists of the powers in the expansion. An example is shown on the image on the right. We can see that a<sup>6</sup>b<sup>9</sup> is the 10th term. Similarly, it can be substituted into the formula and we have 5005 as our coefficient for the 10th term.</p>
+
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva6.png" class="image3">
+  <p><b>c.Alternating Symbols and Inner Coefficients</b></p>
+  <p  style="padding:1vw; width:50vw;">We've been talking about adding two expressions together, but what about subtracting them? This question is simply answered using the concept of exponents. Recall that when a negative number is raised to an odd numbered power, it remains negative. When the expansion involves subtaction, we take the second expression as a negative value. If you think you understand this topic quite well, the you'll realize that the signs alternate when you expand the subtraction of two expressions. The sign in front of the term with the second expression raised to a negative power is always negative. The term with the second expression raised to an even number will remain positive.</p><br><br><br><br>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva7.png" class="image3">
+  <p  style="padding:1vw; width:50vw;">Sometimes, it's not as simple as a and b inside those parentheses. It could be -a or 3b, or even -3a. Recall that when negative numbers are raised to odd powers (like (-3)<sup>3</sup> = -27), they remain negative. Similar with the inner coefficients. They can be either positive or negative, and you have to include them when raising the terms to a certain power. For example you have (2a)<sup>2</sup>, it would equal to (2)<sup>2</sup> x a<sup>2</sup> = 4a<sup>2</sup>. So whatever coefficient you obtained from solving the combinatorics, you'd have to multiply 4 into it to get the correct coefficient.</p><br><br><br><br><br><br><br><br>
+
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva8.png" class="image3">
+  <p  style="background-color: #87CEFA; padding:1vw; width:50vw;  text-align:center;"><b>d. Inner Powers</b></p>
+  <p  style="padding:1vw; width:50vw;">Sometimes the expressions include exponents of their own, like a<sup>2</sup> and b<sup>2</sup>. You should include these powers when you expand the sum of the expressions. Recall that when there's one power inside the parentheses and another outside, you multiply them together to evaluate them. It applies here when expanding the sum of expressions using the Binomial Theorem.</p><br><br><br><br><br><br><br>
+
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva9.png" class="image3">
+  <p  style="background-color: #87CEFA; padding:1vw; width:50vw;  text-align:center;"><b>di. Negative Inner Powers</b></p>
+  <p  style="padding:1vw; width:50vw;">Fractions can also be included in binomial expansions. You can simply change the powers into negative exponents, which is easier to compute. However, do note that the sum of their powers will not be equal to n. Also, if the fraction has a coefficient (a number other than 1 as the numerator), then don't apply the negative power onto it. Negative powers only apply to whatever number that becomes the denominator. The negative power can be applied to the coefficient if it's also part of the denominator.</p><br><br><br><br><br>
+
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva10.png" class="image3">
+  <p  style="background-color: #87CEFA; padding:1vw; width:50vw;  text-align:center;"><b>e. Constant Terms</b></p>
+  <p  style="padding:1vw; width:50vw;"> Constant terms are terms that have no more expressions because they cancel each other out (usually exists in expansions involving fractions). You can also often find these at the end of an expansion of the sum of two expressions where the second expression is a constant itself. These terms are usually located in the middle of the expression, where the powers balance out. The image on the right will give you an example.</p><br><br><br><br><br><br>
+
+  <h3>Section 4.4: Binomials with More Than Two Expressions</h3>
+  <img BORDER="1" ALIGN="Right" SRC="binomtheoremcanva11.png" class="image3">
+  <p  style="padding:1vw; width:50vw;"> This whole chapter, we've talked about binomials with only two expressions, but what if there are more?<br>
+  The key is to group them together. The simplest way is to leave the term with the smallest degree behind. If we have a<sup>2</sup>, a, and 1, then the term with the smallest degree would be 1, because it has no a involved. The one with the highest degree is a<sup>2</sup>, because it has the highest exponent of a.<br>
+  For example we have (a<sup>2</sup> + a + 1)<sup>6</sup>, we can split this into [(a<sup>2</sup> + a) + 1]<sup>6</sup> and continue using the same method, using (a<sup>2</sup> + a) as a, and 1 as b. This is shown on the image on the right.</p><br><br><br><br><br><br><br>
+
+  <h3>Section 4.5: Chapter Recap</h3>
+  <img BORDER="1" SRC="binomtheoremcanva12.png" class="image23">
+  <img BORDER="1" SRC="binomtheoremcanva13.png" class="image23">
