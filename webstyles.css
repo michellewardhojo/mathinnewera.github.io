@@ -101,3 +101,279 @@ table  {
     line-height: 2;
     font-size: 1vw;
 }
+
+
+.image1 {
+  margin-top: 17px;
+  margin-left: 25px;
+  width: 250px;
+  height: 150px;
+}
+
+.image2 {
+  margin-left: 50px;
+  height:auto;
+  margin-right: 50px;
+  max-width: 35%;
+}
+
+.image3 {
+  margin-left: 6vw;
+  height:auto;
+  margin-right: 2vw;
+  max-width: 35%;
+}
+
+.image4 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+  margin-top: 17px;
+}
+
+.image5 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.image6 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image7 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image8 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.image9 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image10 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image11 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.image12 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image13 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+  margin-right: 50px;
+}
+
+.image14 {
+  margin-left: 50px;
+  width:500px;
+  height:325px;
+}
+
+.image15 {
+  margin-top: 17px;
+  margin-left: 25px;
+  width: 250px;
+  height: 150px;
+}
+
+.image16 {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 500px;
+  height:325px;
+}
+
+.image17 {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 500px;
+  height:325px;
+}
+
+.image18 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 500px;
+  height:325px;
+}
+
+.image19 {
+  margin-top: 17px;
+  margin-left: 25px;
+  width: 250px;
+  height: 150px;
+}
+
+.image20 {
+  margin-top: 1.5vw;
+  margin-left: 3.25vw;
+  width: 20vw;
+  height: 12vw;
+}
+
+.image21 {
+  margin-top: 17px;
+  margin-left: 225px;
+  width: 250px;
+  height: 150px;
+}
+
+.image22 {
+  margin-top: 17px;
+  margin-left: 225px;
+  width: 250px;
+  height: 150px;
+}
+
+.image23 {
+  height:auto;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.image24 {
+max-width: 15%;
+max-height: 8%;
+background-color: #002c5f;
+float:left;
+}
+
+.border {
+    border-color: #D1EEEE;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 500px;
+  max-height: 325px;
+}
+
+iframe  {
+  max-height: 100%;
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.header {
+  background-color: #002c5f;
+  text-align: center;
+  color: white;
+}
+
+.introvidexposition {
+  background color:##AFEEEE;
+  padding:1vw;
+  width:45vw;
+}
+
+.float-container2 {
+  max-width:33%
+}
+
+#more {
+  display: none;
+    margin-left: 15px;
+}
+
+table, th, td {
+  border: 0.1vw solid black;
+  border-collapse: collapse;
+  align-content: center;
+}
+th, td {
+  padding: 0.1vw;
+  text-align: justify;
+}
+
+.button1 {
+  background-color: #eb5858;
+  border: none;
+  color: white;
+  padding: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+}
+
+.button2 {
+  background-color: #004aad; /* Green */
+  border: none;
+  color: white;
+  padding: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  float: right;
+}
+
+.button3 {
+  background-color: #8c52ff; /* Green */
+  border: none;
+  color: white;
+  padding: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  height:auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.button4 {
+  background-color: #002c5f; /* Green */
+  border: none;
+  color: white;
+  padding: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  height:auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
