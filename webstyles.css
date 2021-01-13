@@ -285,6 +285,17 @@ background-color: #002c5f;
 float:left;
 }
 
+.image25 {
+  margin-top: 1.5vw;
+  margin-left: 3.25vw;
+  width: 20vw;
+  height: 12vw;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .border {
     border-color: #D1EEEE;
 }
@@ -511,7 +522,7 @@ th, td {
 #wrapper {
   width:95%;
   clear:both;
-  max-width: 95%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -530,7 +541,8 @@ th, td {
 }
 #third {
   width:47.75%;
-  float:left;
+  float:right;
+  margin-right:1vw;
 }
 
 
@@ -554,6 +566,14 @@ th, td {
   height:22vw
 }
 
+#wrapper4 {
+  width:100%;
+  clear:both;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 #firstt {
   float:left;
@@ -575,4 +595,24 @@ th, td {
   text-align: center;
   font-size:0.5vw
 
+}
+
+#one2 {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:25vw;
+}
+#two2 {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:25vw;
+
+}
+#three2 {
+  width:50%;
+  float:left;
+  background-color:#E0FFFF;
+  height:25vw
 }
