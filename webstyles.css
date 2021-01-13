@@ -315,6 +315,109 @@ iframe  {
   width:45vw;
 }
 
+.introvidexposition2 {
+  background color:##AFEEEE;
+  padding:1vw;
+  position:absolute;
+  margin-top:20%;
+  margin-left:10%;
+  opacity:90%;
+}
+
+.introvidexposition3 {
+  background color:##AFEEEE;
+  padding:1vw;
+  width:45vw;
+}
+
+.float-child  {
+  background color:##AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:20%;
+  margin-left:50%;
+  opacity:90%;
+}
+
+.float-child2  {
+  background color:##AFEEEE;
+  padding:1vw;
+  width:15vw;
+  position:absolute;
+  margin-top:50%;
+  margin-left:70%;
+  opacity:90%;
+}
+
+.float-child3  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:1vw;
+  margin-left:2%;
+  opacity:90%;
+}
+
+.float-child4  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:1vw;
+  margin-left:50%;
+  opacity:90%;
+}
+
+.float-child5  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:43vw;
+  margin-left:50%;
+  opacity:90%;
+}
+
+.float-child6  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:43vw;
+  margin-left:2%;
+  opacity:90%;
+}
+
+.float-child7  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:87vw;
+  margin-left:50%;
+  opacity:90%;
+}
+
+.float-child8  {
+  background color:#AFEEEE;
+  padding:1vw;
+  width:35vw;
+  position:absolute;
+  margin-top:87vw;
+  margin-left:2%;
+  opacity:90%;
+}
+
+h5  {
+  height:auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .float-container2 {
   max-width:33%
 }
@@ -406,31 +509,36 @@ th, td {
 }
 
 #wrapper {
-  width:100%;
+  width:95%;
   clear:both;
-}
-#first {
-  width:30%;
-  float:left;
-}
-#second {
-  width:30%;
-  float:left;
-}
-#third {
-  width:40%;
-  float:right;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-#wrapper {
-  width:100%;
-  clear:both;
+
+#first {
+  width:25.5%;
+  float:left;
+  margin-right: 0.5vw;
 }
+#second {
+  width:25.5%;
+  float:left;
+  margin-right: 0.5vw;
+}
+#third {
+  width:47.75%;
+  float:left;
+}
+
+
 #one {
   width:50%;
   float:left;
   background-color:#E0FFFF;
-  height:44vw;
+  height:22vw;
 }
 #two {
   width:50%;
@@ -448,23 +556,23 @@ th, td {
 
 
 #firstt {
-  width:33.3%;
   float:left;
   background-color: #E0FFFF;
   text-align: center;
+  font-size:0.5vw
 }
 #secondd {
-  width:33.3%;
   float:left;
   background-color: #E0FFFF;
   text-align: center;
+  font-size:0.5vw
 
 }
 
 #thirdd {
-  width:33.3%;
   float:left;
   background-color: #E0FFFF;
   text-align: center;
+  font-size:0.5vw
 
 }
