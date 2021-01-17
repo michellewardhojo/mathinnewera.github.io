@@ -132,11 +132,10 @@ div.content {
 }
 
 .image4 {
-  margin-left: 50px;
-  width:500px;
-  height:325px;
-  margin-right: 50px;
-  margin-top: 17px;
+  margin-left: 6vw;
+  height:auto;
+  margin-left: 3vw;
+  max-width: 36.5%;
 }
 
 .image5 {
